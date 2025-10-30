@@ -1,0 +1,42 @@
+scene:
+  id: A01_seion_room
+  description: "温度24.0℃、静音の観測室。青い微光が粒子として漂う。"
+  camera:
+    position: [6, 4, 8]
+    lookAt: [0, 1.2, 0]
+  lights:
+    - type: hemisphere
+      sky: "#9bbcff"
+      ground: "#0b0e12"
+      intensity: 0.6
+    - type: directional
+      color: "#ffffff"
+      intensity: 1.2
+      position: [5, 8, 3]
+  entities:
+    - id: floor
+      kind: plane
+      size: [40, 40, 1]
+      position: [0, 0, 0]
+      rotation: [-1.570796, 0, 0]
+      material: { type: standard, color: "#0f141a", metalness: 0.0, roughness: 0.9 }
+    - id: console
+      kind: box
+      size: [1.8, 0.9, 0.6]
+      position: [1.6, 0.45, -0.8]
+      material: { type: standard, color: "#0e1b2b", emissive: "#3aa0ff", emissiveIntensity: 0.4, metalness: 0.2, roughness: 0.4 }
+    - id: ai_body
+      kind: cylinder
+      size: [0.5, 1.6]
+      position: [0, 0.8, 0]
+      material: { type: physical, color: "#cfd8dc", metalness: 0.6, roughness: 0.2 }
+    - id: ai_head
+      kind: sphere
+      size: [0.32]
+      position: [0, 1.7, 0]
+      material: { type: physical, color: "#e3f2fd", emissive: "#a1c4ff", emissiveIntensity: 0.15, metalness: 0.6, roughness: 0.15 }
+    - id: thermo
+      kind: cylinder
+      size: [0.05, 1.2]
+      position: [-1.2, 0.6, 0.8]
+      material: { type: standard, color: "#8888aa", metalness: 0.3, roughness: 0.5 }

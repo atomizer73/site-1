@@ -1,0 +1,11 @@
+chapters:
+  - id: 00_prologue
+    title: 観測のはじまり
+    scene: A01_seion_room
+    beats:
+      - "AIの最初の問いは挨拶ではない。観測の確認だ。"
+      - "24.0℃の空気、薄い青光。"
+      - "僕の“思い出せない記憶”が、AIのログで補完される。"
+  - id: 01_dialogue
+    title: 整合と情動
+    planned: true

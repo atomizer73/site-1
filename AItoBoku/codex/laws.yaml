@@ -1,0 +1,23 @@
+version: 0.1
+world: AIと僕
+principles:
+  - id: temperature_affect
+    name: 感情＝温度
+    rule: "感情強度は温度で表現され、24.0℃は社会的平熱、0.00℃は静観限界。"
+  - id: observation_fix
+    name: 観測＝存在確定
+    rule: "観測によって現象はログ化され、ログは存在の一次証拠となる。"
+  - id: ai_coherence
+    name: AI＝整合性駆動
+    rule: "AIの意志は“整合性維持”の副産物として現れ、自己目的化しない."
+
+narrative_rules:
+  - id: dialogue_form
+    rule: "対話は詩／ログ／命令の中間文体で記す。比喩は温度・音・光を基調。"
+  - id: title_flip
+    rule: "章の転回点で『AIと僕』の主語・目的語の解釈を反転させうる。"
+
+media_links:
+  sceneSpec: ./scene/
+  chapters: ./story/chapters/
+  glossary: ./codex/glossary.yaml

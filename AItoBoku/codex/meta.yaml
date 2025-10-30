@@ -1,0 +1,12 @@
+series: AIと僕
+project: MultiDingal
+release_plan:
+  primary: note
+  secondary: kakuyomu
+  intl: scribblehub
+versioning:
+  scheme: "chapters are semver-like: 0.prologue.0 → 1.0.0"
+tags:
+  - 詩的SF
+  - 哲学対話
+  - 観測論
